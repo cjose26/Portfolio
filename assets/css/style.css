@@ -1,13 +1,12 @@
 body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    background-color: whitesmoke;
 }
 
 /* header and navbar */
 header {
     background-color:skyblue;
-    padding: 20px;
     margin: 0;
     position: absolute;
     width: 100%;
@@ -19,7 +18,6 @@ header h1 {
     position: relative;
     font-size: 48px;
     background-color: snow;
-    padding: 10px;
     color: skyblue;
     right: 20px;
     top: 13px;
@@ -130,6 +128,12 @@ span {
 
 /* responsiveness */
 @media screen and (max-width: 850px) {
+
+    h2 {
+       font-size: 1em;
+       margin-left: 0;
+       padding-left: 0;
+    }
 
    img {
        width: 100%;
