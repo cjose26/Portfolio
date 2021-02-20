@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* header and navbar */
+header {
+    background-color:skyblue;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+header h1 {
+    display: inline;
+    position: relative;
+    font-size: 48px;
+    background-color: snow;
+    padding: 10px;
+    color: skyblue;
+    right: 20px;
+    top: 13px;
+    padding-left: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    border-bottom: 2px solid snow;
+    padding-bottom: 2px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+a:hover {
+    color: green;
+}
+
+/* banner */
+
+#banner {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('../images/banner.jpg.');
+    background-size: cover;
+}
+
+/* main section */
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+}
+
+#content section {
+    display: flex;
+    margin: 20px;
+    background-color: lightgrey;
+    padding: 20px 10px;
+}
+
+.title {
+    float: left;
+    margin: 20px;
+    border-right: 3px solid skyblue;
+    padding-right: 10px;
+}
+
+/* my work section */
+.container {
+    position: relative;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0 5px;
+  }
+
+/* paragraphs and list items */
+p,
+h3,
+li {
+    text-align: justify;
+    line-height: 2;
+    font-size: 1em;
+}
+
+li {
+    list-style: none;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+#email {
+    color: black;
+}
+
+#email:hover {
+    color: green;
+}
+
+/* responsiveness */
+@media screen and (max-width: 850px) {
+
+   img {
+       width: 100%;
+   }
+
+   #content {
+       max-width: 100%;
+   }
+
+   #banner {
+       height: 370px;
+       background-position: center;
+   }
+}
